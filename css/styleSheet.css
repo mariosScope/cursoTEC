@@ -1,0 +1,33 @@
+#encabezado img{
+    width: 150px;
+    padding: 20px 25px;
+}
+
+nav.menu:first-of-type > a {
+    border: 1px solid #ccc;
+    padding: 6px 30px;
+    color: #696969;
+    text-decoration: none;
+}
+
+nav.menu:first-of-type > a:hover {
+    background: #00447B;
+    color: #fff;
+}
+nav.menu:nth-of-type(2) > a {
+    border: 1px solid red;
+}
+
+td{
+    width 100px;
+}
+
+tr:nth-of-type(even){
+    background-color: #ccc;
+}
+table{
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid #ccc;
+}
